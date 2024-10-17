@@ -117,3 +117,5 @@ dependencies {
         implementation jscFlavor
     }
 }
+
+apply from: new File(["node", "--print", "require.resolve('react-native-vector-icons/fonts.gradle')"].execute().text.trim())

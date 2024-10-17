@@ -10,8 +10,15 @@
     "test": "jest"
   },
   "dependencies": {
+    "axios": "^1.7.7",
+    "date-fns": "^4.1.0",
     "react": "18.3.1",
-    "react-native": "0.75.4"
+    "react-native": "0.75.4",
+    "react-native-audio-recorder-player": "^3.6.11",
+    "react-native-permissions": "^5.0.0",
+    "react-native-sqlite-storage": "^6.0.1",
+    "react-native-vector-icons": "^10.2.0",
+    "react-native-webview": "^13.12.3"
   },
   "devDependencies": {
     "@babel/core": "^7.20.0",
